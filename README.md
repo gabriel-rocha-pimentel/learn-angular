@@ -1,8 +1,8 @@
-# Anotações do Curso de Angular
+# Anotações de Angular v19
 
 ## Descrição
 
-Este repositório contém minhas anotações pessoais do curso de Angular ministrado por Loiane Groner. As anotações abrangem desde conceitos básicos até tópicos avançados, acompanhadas de exemplos de código e explicações detalhadas.
+Este repositório contém minhas anotações pessoais sobre Angular, baseadas na documentação oficial da versão 19. As anotações abrangem desde conceitos básicos até tópicos avançados, acompanhadas de exemplos de código e explicações detalhadas.
 
 ## Índice
 
@@ -20,7 +20,7 @@ Este repositório contém minhas anotações pessoais do curso de Angular minist
 
 ## Introdução
 
-Nesta seção, apresento uma visão geral do curso e os objetivos de aprendizado.
+Nesta seção, apresento uma visão geral do Angular v19 e os objetivos de aprendizado.
 
 ## Configuração do Ambiente
 
@@ -60,11 +60,11 @@ Uso de pipes embutidos e criação de pipes customizados para transformação de
 
 ## Conclusão
 
-Reflexões finais sobre o curso e próximos passos no aprendizado de Angular.
+Reflexões finais sobre o aprendizado de Angular e próximos passos.
 
 ## Tecnologias Utilizadas
 
-- [Angular](https://angular.io/)
+- [Angular v19](https://angular.io/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [Node.js](https://nodejs.org/)
 - [Visual Studio Code](https://code.visualstudio.com/)
@@ -100,11 +100,3 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar
 
 Este projeto está licenciado sob a [Licença MIT](LICENSE).
 
-## Agradecimentos
-
-Agradeço a [Loiane Groner](https://github.com/loiane) pelo excelente curso de Angular.
-
----
-
-*Observação: Este repositório é baseado no curso de Angular disponível em [https://github.com/loiane/curso-angular](https://github.com/loiane/curso-angular).*
-```
