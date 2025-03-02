@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { HousingLocationComponent } from '../housing-location/housing-location.component';
-import { Housinglocation } from '../housinglocation';
+import { HousingLocation } from '../interfaces/housingLocation/housinglocation';
 
 @Component({
   selector: 'app-home',
@@ -17,7 +17,7 @@ import { Housinglocation } from '../housinglocation';
       </form>
     </section>
     <section class="results">
-      <app-housing-location></app-housing-location>
+      <app-housing-location [housingLocation]="housingLocation"></app-housing-location>
     </section>
   `,
   styleUrls: ['./home.component.css'],
@@ -26,7 +26,7 @@ import { Housinglocation } from '../housinglocation';
 export class HomeComponent {
   readonly baseUrl = 'https://angular.dev/assets/images/tutorials/common';
 
-  housingLocation: Housinglocation = {
+  housingLocation: HousingLocation = {
     id: 9999,
     name: 'Test Home',
     city: 'Test city',
